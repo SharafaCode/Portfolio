@@ -1,0 +1,81 @@
+.header-container{
+
+    width: 98%;
+    margin: auto;
+}
+
+.header-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+
+}
+
+.logo{
+
+   
+    font-size: 2rem;
+    justify-self: left;
+    padding-left: 1rem;
+    
+    
+
+}
+
+.hamburger-container{
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transform: translateY(-.7rem);
+   justify-self: center;
+   
+}
+
+.hamburger{
+
+    width: 4rem;
+    border-top: .2rem solid #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+.hamburger::after{
+
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: .4rem;
+    border-top: .2rem solid #fff;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.geo-wrapper{
+    
+    text-align: center;
+    justify-self: right;
+    padding-right: 1rem;
+  
+}
+
+.time{
+
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.location{
+
+    font-size: 1rem;
+    font-weight: 800;
+}
+
