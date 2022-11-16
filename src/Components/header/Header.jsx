@@ -1,5 +1,6 @@
 import React from 'react';
-import './header.css'
+import './header.css';
+import logo from '../../assets/20221116_124717_0000-removebg-preview.png'
 
 const header = () => {
   return (
@@ -12,7 +13,7 @@ const header = () => {
 
             <div className="logo">
 
-                <h3>BS</h3>
+                <img src={logo} alt="" />
 
             </div>
 

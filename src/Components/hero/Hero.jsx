@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdOutlineSouth } from "react-icons/md";
+import { BsArrowDown } from "react-icons/bs";
 import './hero.css';
 import Header from '../header/Header';
 import img from '../../assets/IMG_1689.jpg';
@@ -19,7 +19,7 @@ const Hero = () => {
 
               <div className='name'>
 
-                <div className='hero-content-subtitle'>
+                <div className='subname'>
 
                   <div>
                     <p>
@@ -29,17 +29,23 @@ const Hero = () => {
                     </p>
 
                   </div>
-              
-                  <h3>
-                    SHARAFA
-                  </h3>
+                  <div>
 
+                    <h3>
+                      SHARAFA
+                    </h3>
+
+                  </div>
+              
                   </div>
 
                     <h1>
                       OLUWATOBI <br />
                       BASHIR'U
                     </h1>
+                    <h4>
+                      FrontEnd Web Developer
+                    </h4>
 
                   </div>
 
@@ -49,7 +55,7 @@ const Hero = () => {
                     <div>
 
                       <button className='btn'>
-                        More About Me
+                        About Me
                       </button>
 
                     </div>
@@ -74,7 +80,7 @@ const Hero = () => {
               <div className=' cta-btn'>
                 <div className='cta-btn-icon'>
 
-                  < MdOutlineSouth />
+                  < BsArrowDown />
 
                 </div>
                 <span className='cta-btn-text'>
