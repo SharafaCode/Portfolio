@@ -13,15 +13,13 @@
 
 .hero-content{
 
-    
     margin-top: 5vh;
     border: .2rem solid #fff;
     background: var(--white-alpha-25);
     width: 100;
     border-radius: 3rem;
     height: 90vh;
-    
-   
+
 }
 
 .hero-content-wrapper{
@@ -42,6 +40,7 @@
     width: 95%;
     letter-spacing: .1rem;
     margin-top: 4rem;
+    padding:0 .3rem;
 }
 .subname p{
 
@@ -119,6 +118,7 @@
     align-items: center;
     justify-content: left;
     margin-top: 1.5rem;
+    cursor: pointer;
   
 }
 
@@ -749,6 +749,81 @@
         align-items: center;
         justify-content: left;
         margin-top: -1rem;
+      
+    }
+
+    
+    .cta-btn-icon{
+
+        font-size: 4.5rem;
+        color: 	#fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: slide-arrow-down-up 1.8s infinite;
+
+    }
+
+    .cta-btn-text{
+
+        transform: translateY(-.35rem);
+        font-size: 1.3rem;
+        font-weight: 800;
+        letter-spacing: .1rem;
+
+    }
+    
+  }
+  
+  @media screen and (min-width:500px) {
+
+  
+
+    .subname p{
+
+        font-size: 1.6rem;
+        font-weight:600;
+    }
+
+    .subname h3{
+        font-size: 1.6rem;
+    }
+
+    .name h1{
+        font-size: 5rem;
+        letter-spacing: .85rem;
+        text-align: center;
+        padding-left: .5rem;
+    }
+    .name h4{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 800;
+        padding-top: 1rem;
+        
+    }
+
+    
+    .image{
+
+        margin-top: 2rem;
+
+    }
+
+
+    .img{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+    }
+
+
+    .cta-btn{
+
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-top: -2rem;
       
     }
 
