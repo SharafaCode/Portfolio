@@ -1,4 +1,9 @@
+.hero-container{
+ 
+    min-height: 100vh;
+    
 
+}
 .hero-wrapper{
 
     max-width: 90%;
@@ -17,7 +22,7 @@
     height: 90vh;
 
 }
-
+/* 
 .hero-content-wrapper{
     
     display: flex;
@@ -845,4 +850,4 @@
     }
     
   }
-  
+   */
