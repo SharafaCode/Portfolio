@@ -30,6 +30,7 @@ html{
 body{
 
   min-height: 100vh;
+  overflow-y: hidden;
   background: linear-gradient(to bottom right, #3f72ad, var(--light-cyan) );
   font-family: 'Playfair Display', serif;
   
