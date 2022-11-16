@@ -14,7 +14,7 @@
 
 .hero-content{
 
-    margin-top: 5vh;
+    
     border: .2rem solid #fff;
     background: var(--white-alpha-25);
     width: 100;
@@ -22,7 +22,7 @@
     height: 90vh;
 
 }
-/* 
+
 .hero-content-wrapper{
     
     display: flex;
@@ -850,4 +850,4 @@
     }
     
   }
-   */
+  
