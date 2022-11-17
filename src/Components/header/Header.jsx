@@ -39,7 +39,6 @@ const header = () => {
 
         </div>
 
-    </nav>
         <div className="nav-list">
             <div className='nav-links'>
                 <a href="">
@@ -59,6 +58,7 @@ const header = () => {
             <VscChromeClose/>
             </div>
         </div>
+    </nav>
 
    </header>
   )

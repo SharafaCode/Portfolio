@@ -94,11 +94,10 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: var(--white-alpha-25);
-    backdrop-filter: blur(4px);
-    height: 100vh;
-    transform: translateY(-8rem);
+    backdrop-filter: blur(5px);
+    height: 82vh;
     transition: all .6s linear;
   
     
@@ -113,6 +112,7 @@ img{
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    height: 100vh;
     justify-content: center;
     font-size: clamp(2.4rem, 10vw + 1rem, 7rem);
    
@@ -127,7 +127,8 @@ img{
 
 
 .close-icon{
-    transform: translateY(6rem);
+   
+    margin-bottom: 2rem;
     font-size: 2.2rem;
     color: #fff;
    
