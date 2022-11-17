@@ -3,13 +3,9 @@ import './frame.css'
 
 const Frame = () => {
   return (
-    <section className='frame-section'>
-        <article className='frame-article'>
-
-            
-
-        </article>
-    </section>
+    <main className='frame-section'>
+        <section className='frame-article'></section>
+    </main>
   )
 }
 
