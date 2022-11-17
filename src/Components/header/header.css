@@ -1,6 +1,7 @@
 .header-container{
     width: 100%;
     min-height: 10vh;
+    
   
   
 }
@@ -95,10 +96,19 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--white-alpha-25);
-    backdrop-filter: blur(5px);
-    height: 82vh;
+    background-color: red;
+    backdrop-filter: blur(2px);
+    width: 88.8%;
+    height:89.4vh;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    margin-top: 5.3vh;
+    border-radius: 2.8rem;
+    border: .1rem solid #f7f7f7e5;
     transition: all .6s linear;
+    
+ 
   
     
     

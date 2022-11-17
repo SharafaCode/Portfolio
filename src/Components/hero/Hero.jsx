@@ -12,9 +12,7 @@ const Hero = () => {
     <Header/>
       <div className="hero-content">
         
-        <h1>
-          hello
-        </h1>
+       
       </div>
     </article>
 </section>
