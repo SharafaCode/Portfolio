@@ -30,7 +30,7 @@ html{
 body{
 
  
-  background: #3f72adf6;
+  background: linear-gradient(to bottom right, #3f72ad, var(--light-cyan) );
   font-family: 'Playfair Display', serif;
   
   
