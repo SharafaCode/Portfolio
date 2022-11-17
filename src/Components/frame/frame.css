@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     
    
 }
@@ -18,5 +19,6 @@
     border: .2rem solid var(--white-alpha-40);
     border-radius: 3rem;
     background: var(--white-alpha-25);
-    overflow-y: hidden;
+    overflow: hidden;
+    
 }
