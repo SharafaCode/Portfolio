@@ -9,7 +9,7 @@
   --white:#fff;
   --white-alpha-40: rgba(255,255,255,0.40);
   --white-alpha-25:rgba(255,255,255,0.25);
-  --backdrop-filter-blur:blur(5px);
+  --backdrop-filter-blur:blur(10px);
 }
 
 *, ::after, ::before{
@@ -31,6 +31,7 @@ body{
 
  
   background: linear-gradient(to bottom right, #3f72ad, var(--light-cyan) );
+  font-family: 'Griffy', cursive;
   font-family: 'Playfair Display', serif;
   
   
@@ -53,8 +54,13 @@ li{
 }
 h1,h2,h3,h4,h5,h6, p{
   
-  color: rgb(15, 15, 15);
+  color: #0f0f0f;
 
+}
+
+a{
+  text-decoration: none;
+  color: #0f0f0f;
 }
 
 

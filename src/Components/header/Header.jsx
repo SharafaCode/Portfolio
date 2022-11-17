@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
-import logo from '../../assets/20221116_124717_0000-removebg-preview.png'
+import logo from '../../assets/20221116_124717_0000-removebg-preview.png';
+import { VscChromeClose } from "react-icons/vsc";
 
 const header = () => {
   return (
@@ -38,12 +39,26 @@ const header = () => {
 
         </div>
 
-       
-
-    
-
-
     </nav>
+        <div className="nav-list">
+            <div className='nav-links'>
+                <a href="">
+                    Home
+                </a>
+                <a href="">
+                    Project
+                </a>
+                <a href="">
+                    About
+                </a>
+                <a href="">
+                    Contact 
+                </a>
+            </div>
+            <div className='close-icon'>
+            <VscChromeClose/>
+            </div>
+        </div>
 
    </header>
   )
