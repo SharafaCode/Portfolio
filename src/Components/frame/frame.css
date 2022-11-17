@@ -1,0 +1,19 @@
+.frame-section{
+  
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.frame-article{
+
+    width: 90%;
+    min-height: 90vh;
+    margin: auto;
+    border: .2rem solid yellow;
+    border-radius: 3rem;
+}

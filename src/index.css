@@ -4,7 +4,7 @@
   --main-color:#e02f6b;
   --blue-Color: #0000ff;
   --dark-blue: #18293c;
-  --light-cyan:#aef1ee;
+  --light-cyan:#60c8f8;
   --light-pink:#efa2b4;
   --white:#fff;
   --white-alpha-40: rgba(255,255,255,0.40);
@@ -29,8 +29,7 @@ html{
 
 body{
 
-  min-height: 100vh;
-  
+
   background: linear-gradient(to bottom right, #3f72ad, var(--light-cyan) );
   font-family: 'Playfair Display', serif;
   
