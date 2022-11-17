@@ -8,10 +8,7 @@ import A from '../../assets/20221103_082341.jpg'
 
 const Hero = () => {
   return (
-    <div>
-      hello
-    </div>
-
+   <Frame/>
   
   )
 }
