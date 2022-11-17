@@ -14,11 +14,11 @@
 .frame-article{
 
     width: 90%;
-    min-height: 90vh;
+    min-height: 60rem;
     margin: auto;
     border: .2rem solid var(--white-alpha-40);
     border-radius: 3rem;
     background: var(--white-alpha-25);
     overflow: hidden;
-    
+
 }
