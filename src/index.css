@@ -29,8 +29,8 @@ html{
 
 body{
 
-  height: 100vh;
-  background: linear-gradient(to bottom right, #3f72ad, var(--light-cyan) );
+ 
+  background: #3f72adf6;
   font-family: 'Playfair Display', serif;
   
   
