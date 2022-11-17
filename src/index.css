@@ -32,7 +32,7 @@ body{
   height: 100vh;
   background: linear-gradient(to bottom right, #3f72ad, var(--light-cyan) );
   font-family: 'Playfair Display', serif;
-  overflow-y: auto;
+  overflow-y: hidden;
   
 }
 body::before{
