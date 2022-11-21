@@ -12,52 +12,53 @@ const Hero = () => {
     <Header/>
       <div className="hero-content">
 
-        <div className="name-wrapper">
+        <div className="col1-wrapper">
 
-        <div className="subname">
-          
-          <div>
-            <p>
-              Hello, I'm
-            </p>
-          </div>
-          <div>
-            <h3>
-              SHARAFA
-            </h3>
-          </div>
-
-        </div>
-
-        <div className="name">
-          <div>
-
-          <h1>
-            OLUWATOBI
-          </h1>
+          <div className="subname">
+            
+            <div>
+              <p>
+                Hello, I'm
+              </p>
+            </div>
+            <div>
+              <h3>
+                SHARAFA
+              </h3>
+            </div>
 
           </div>
 
-          <div>
+          <div className="name">
+            <div>
+
             <h1>
-              BASHIRU
+              OLUWATOBI
             </h1>
-          </div>
-        </div>
-        </div>
 
-        <div className="btn">
-          <div>
-            <button type='button' className='btns'>
-              About Me
-            </button>
+            </div>
 
+            <div>
+              <h1>
+                BASHIRU
+              </h1>
+            </div>
           </div>
-          <div>
-            <button type='button' className='btns'>
-              Profolio
-            </button>
+
+          <div className="btn">
+            <div>
+              <button type='button' className='btns'>
+                About Me
+              </button>
+
+            </div>
+            <div>
+              <button type='button' className='btns'>
+                Profolio
+              </button>
+            </div>
           </div>
+
         </div>
 
         <div className="image">
@@ -65,6 +66,7 @@ const Hero = () => {
           <img src={BashImage} className='img' alt="bash" />
 
         </div>
+
         <div className="scrollbtn">
 
           <div className='scrollIcon'>

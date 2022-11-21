@@ -132,6 +132,7 @@
     display: flex;
     align-items: center;
     justify-content: left;
+    transform: translateX(-1rem);
     
 }
 
@@ -202,7 +203,7 @@
 
         width: 90%;
         margin: auto;
-        min-height: 78vh;
+        min-height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -219,12 +220,12 @@
 
     .image{
 
-        margin:auto;
+        margin: 0 auto;
     }
 
     .img{
-        width: 25rem;
-        height: 25rem;
+        width: 24rem;
+        height: 24rem;
         border-radius: 25%;
     }
     
