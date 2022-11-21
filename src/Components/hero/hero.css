@@ -201,8 +201,8 @@
     .hero-content{
 
         width: 90%;
-        margin: 2rem auto;
-        min-height: 80vh;
+        margin: auto;
+        min-height: 78vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -211,7 +211,7 @@
 
     .btn{
 
-        margin: 2rem auto;
+        margin: auto;
         padding: 1rem 2rem;
         font-size: 1.4rem;
 
@@ -219,12 +219,12 @@
 
     .image{
 
-        margin: 2rem auto;
+        margin:auto;
     }
 
     .img{
-        width: 50rem;
-        height: 50rem;
+        width: 25rem;
+        height: 25rem;
         border-radius: 25%;
     }
     
