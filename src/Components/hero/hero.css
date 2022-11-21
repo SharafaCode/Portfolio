@@ -219,7 +219,6 @@
 }
 
 
-
 @media screen and (min-width:390px) {
 
     .hero-content{
@@ -245,6 +244,66 @@
     .img{
         width: 26rem;
         height: 26rem;
+        border-radius: 25%;
+    }
+    
+}
+
+@media screen and (min-width:393px) {
+
+    .hero-content{
+
+        width: 90%;
+        margin: 3rem auto;
+
+    }
+
+    .btn{
+
+        margin: 2rem auto;
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+
+    }
+
+    .image{
+
+        margin: 4rem auto;
+    }
+
+    .img{
+        width: 27rem;
+        height: 27rem;
+        border-radius: 25%;
+    }
+    
+}
+
+@media screen and (min-width:412px) {
+
+    .hero-content{
+
+        width: 90%;
+        margin: 3rem auto;
+
+    }
+
+    .btn{
+
+        margin: 2rem auto;
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+
+    }
+
+    .image{
+
+        margin: 5rem auto;
+    }
+
+    .img{
+        width: 29rem;
+        height: 29rem;
         border-radius: 25%;
     }
     
