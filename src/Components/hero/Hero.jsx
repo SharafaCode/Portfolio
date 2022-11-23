@@ -90,9 +90,9 @@ const Hero = () => {
           </a>
 
         </div>
-        <div className='whatsapp'>
+        {/* <div className='whatsapp'>
        < FaWhatsapp/>
-        </div>
+        </div> */}
       
        
       </div>
