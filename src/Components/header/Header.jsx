@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import logo from '../../assets/20221116_124717_0000-removebg-preview.png';
+import logo from '../../assets/Black_Minimalist_Initial_Font_BE_Logo-removebg-preview.png';
 import { VscChromeClose } from "react-icons/vsc";
 
 const header = () => {
@@ -13,8 +13,9 @@ const header = () => {
         <div className='header-content'>
 
             <div className="logo">
-
-                <img src={logo} alt="" />
+                <h1>
+                    B.S
+                </h1>
 
             </div>
 

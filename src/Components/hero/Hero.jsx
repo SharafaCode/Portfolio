@@ -2,7 +2,7 @@ import React from 'react';
 import { BsArrowDown } from "react-icons/bs";
 import './hero.css';
 import Header from '../header/Header';
-import BashImage from '../../assets/IMG_1689.jpg';
+import BashImage from '../../assets/image.png';
 
 
 const Hero = () => {
@@ -17,15 +17,11 @@ const Hero = () => {
           <div className="subname">
             
             <div>
-              <p>
+              <h2>
                 Hello, I'm
-              </p>
+              </h2>
             </div>
-            <div>
-              <h3>
-                SHARAFA
-              </h3>
-            </div>
+            
 
           </div>
 
@@ -44,19 +40,10 @@ const Hero = () => {
               </h1>
             </div>
           </div>
-
-          <div className="btn">
-            <div>
-              <button type='button' className='btns'>
-                About Me
-              </button>
-
-            </div>
-            <div>
-              <button type='button' className='btns'>
-                Profolio
-              </button>
-            </div>
+          <div className='decs'>
+            <p>
+              I build beautiful websites that attracts the right  <br />  kinds of visitors. <span>(FrontEnd Web Dev).</span>
+            </p>
           </div>
 
         </div>
