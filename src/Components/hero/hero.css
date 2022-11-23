@@ -75,6 +75,23 @@
     letter-spacing: .01rem;
 }
 
+
+.social-media{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translate(50%, 0%);
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #f7f7f7e5;
+}
+
 .image{
 
     display: flex;
