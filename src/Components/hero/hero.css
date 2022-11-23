@@ -107,6 +107,7 @@
     left: 0;
     transform: translateY(-1rem);
     z-index: 20;
+    color: #f7f7f7e5;
 
     
 }
@@ -117,6 +118,7 @@
     font-size: 1rem;
     font-weight: 700;
     color: #f7f7f7e5;
+   
 }
 
 .scrollIcon{
@@ -193,6 +195,10 @@
 
     }
 
+    .col1-wrapper{
+        margin-top: 3rem;
+    }
+
     .decs{
         font-size: 1.35rem;
         font-weight: 600;
@@ -205,7 +211,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        transform: translateX(-2.5rem);
+        transform: translateX(-4rem);
     
     }
 
@@ -231,22 +237,30 @@
 
     }
 
-    .btn{
+    .col1-wrapper{
+        margin-top: 3rem;
+    }
 
-        margin: auto;
-        padding: 1rem 2rem;
-        font-size: 1.4rem;
-
+    .decs{
+        font-size: 1.35rem;
+        font-weight: 600;
+        color: grey;
+        letter-spacing: .01rem;
     }
 
     .image{
 
-        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(-4rem);
+    
     }
+
     .img{
-        width: 26rem;
-        height: 26rem;
-   
+        width: 35;
+        height: 38rem;
+       
     }
     
 }
@@ -264,23 +278,10 @@
 
     }
 
-    .btn{
-
-        margin: auto;
-        padding: 1rem 2rem;
-        font-size: 1.4rem;
-
-    }
-
-    .image{
-
-        margin: auto;
-    }
-
     .img{
-        width: 27rem;
-        height: 27rem;
-       ;
+        width: 35;
+        height: 39rem;
+       
     }
     
 }
@@ -298,22 +299,29 @@
 
     }
 
-    .btn{
+    .col1-wrapper{
+        margin-top: 3rem;
+    }
 
-        margin:  auto;
-        padding: 1rem 2rem;
-        font-size: 1.4rem;
-
+    .decs{
+        font-size: 1.35rem;
+        font-weight: 600;
+        color: grey;
+        letter-spacing: .01rem;
     }
 
     .image{
 
-        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(-4rem);
+    
     }
 
     .img{
-        width: 29rem;
-        height: 29rem;
+        width: 35;
+        height: 40rem;
        
     }
     
