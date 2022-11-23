@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsArrowDown } from "react-icons/bs";
-import {FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import {FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub, FaWhatsapp } from "react-icons/fa";
 import './hero.css';
 import Header from '../header/Header';
 import BashImage from '../../assets/image.png';
@@ -73,12 +73,25 @@ const Hero = () => {
 
 
         <div className='social-media'>
+          <a href="">
+          < FaFacebookF/>
+          </a>
+          <a href="">
+          <FaTwitter/>
 
-       < FaFacebookF/>
-       <FaTwitter/>
-       <FaLinkedinIn/>
-       <FaGithub />
-       
+          </a>
+          <a href="">
+          <FaLinkedinIn/>
+
+          </a>
+          <a href="">
+          <FaGithub />
+
+          </a>
+
+        </div>
+        <div className='whatsapp'>
+       < FaWhatsapp/>
         </div>
       
        

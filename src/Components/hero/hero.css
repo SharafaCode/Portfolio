@@ -77,19 +77,48 @@
 
 
 .social-media{
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 0;
-    transform: translate(50%, 0%);
     display: flex;
-    gap: 2.5rem;
+    gap: 1rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 3rem;
+    margin-left: 1.4rem;
+    margin-top: 1.4rem;
     font-size: 2rem;
-    cursor: pointer;
+    
+   
+}
+
+.social-media a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #f7f7f7e5;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: var(--white-alpha-25);
+    border-radius: 50%;
+}
+
+.whatsapp{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    bottom: 8%;
+    color: #02b302;
+    font-size: 3rem;
+    margin-right: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: var(--white-alpha-25);
+    border-radius: 50%;
+
 }
 
 .image{
@@ -172,7 +201,7 @@
     }
 
     .col1-wrapper{
-        margin-top: 4rem;
+        margin-top: 2.5rem;
     }
 
     .decs{
