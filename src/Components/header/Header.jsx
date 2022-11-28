@@ -55,9 +55,9 @@ const header = () => {
                     Contact 
                 </a>
             </div>
-            <div className='close-icon'>
+            {/* <div className='close-icon'>
             <VscChromeClose/>
-            </div>
+            </div> */}
         </div>
     </nav>
 
