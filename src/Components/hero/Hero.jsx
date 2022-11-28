@@ -1,19 +1,23 @@
 import React from 'react';
 import { BsArrowDown } from "react-icons/bs";
 import {FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub, FaWhatsapp } from "react-icons/fa";
+import { Icon } from '@iconify/react';
 import './hero.css';
 import Header from '../header/Header';
 import BashImage from '../../assets/image.png';
 
 
 const Hero = () => {
+
   return (
+
     <section className='frame-section'>
+      
     <article className='frame-article'>
     <Header/>
       <div className="hero-content">
 
-        <div className="col1-wrapper">
+      
 
           <div className="subname">
             
@@ -47,12 +51,26 @@ const Hero = () => {
             </p>
           </div>
 
-        </div>
+        
 
-        <div className="image">
+        <div className='social-media'>
 
-          <img src={BashImage} className='img' alt="bash" />
+            <a href="">
+            <Icon icon="logos:twitter" />
+              </a>
 
+              <a href="" className='font-size'>
+              <Icon icon="logos:linkedin-icon" />
+              </a>
+
+              <a href="" className='font-size'>
+              <Icon icon="logos:github-icon" />
+              </a>
+
+              <a href="" className='font-size'>
+              <Icon icon="logos:facebook" />
+          </a>
+         
         </div>
 
         <div className="scrollbtn">
@@ -68,31 +86,7 @@ const Hero = () => {
             </p>
           </div>
 
-
         </div>
-
-
-        <div className='social-media'>
-          <a href="">
-          < FaFacebookF/>
-          </a>
-          <a href="">
-          <FaTwitter/>
-
-          </a>
-          <a href="">
-          <FaLinkedinIn/>
-
-          </a>
-          <a href="">
-          <FaGithub />
-
-          </a>
-
-        </div>
-        {/* <div className='whatsapp'>
-       < FaWhatsapp/>
-        </div> */}
       
        
       </div>

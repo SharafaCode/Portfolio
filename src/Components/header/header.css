@@ -89,20 +89,17 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgba(255,255,255,0.40);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(10px);
     width: 100%;
-    height:00vh;
-    margin: auto;
+    height: 90vh;
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     border-radius: 2.8rem;
     transition: all .6s linear;
+    z-index: 999;
     display: none;
     
-
 }
 
 
