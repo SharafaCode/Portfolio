@@ -22,9 +22,9 @@ const Hero = () => {
           <div className="subname">
             
             <div>
-              <h2>
+              <h3>
                 Hello, I'm
-              </h2>
+              </h3>
             </div>
             
 
@@ -45,9 +45,14 @@ const Hero = () => {
               </h1>
             </div>
           </div>
+          <div>
+            <h2>
+               FRONT-END DEVELOPER
+            </h2>
+          </div>
           <div className='decs'>
             <p>
-              I build beautiful websites that attracts the right  <br />  kinds of visitors. <span>(FrontEnd Web Dev).</span>
+              I Build Beautiful Simple Things!<span className='project'> <a href=""> Projects</a></span>
             </p>
           </div>
 
