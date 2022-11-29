@@ -1,5 +1,6 @@
-import Cta from "./Components/Cta/Cta"
-import Hero from "./Components/hero/Hero"
+import Cta from "./Components/Cta/Cta";
+import Hero from "./Components/hero/Hero";
+import About from "./Components/about/About";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <main>
 
       <Hero/>
+      <About/>
 
     </main>
    

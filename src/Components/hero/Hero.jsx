@@ -23,7 +23,7 @@ const Hero = () => {
             
             <div>
               <h3>
-                Hello, I'm
+                Hi,
               </h3>
             </div>
             
@@ -34,26 +34,25 @@ const Hero = () => {
             <div>
 
             <h1>
-              OLUWATOBI
+              I'm <span className='first-letter'>T</span>obi
             </h1>
 
             </div>
 
             <div>
               <h1>
-                BASHIRU
+              Web Developer
               </h1>
             </div>
           </div>
-          <div>
-            <h2>
-               FRONT-END DEVELOPER
-            </h2>
-          </div>
+         
           <div className='decs'>
             <p>
-              I Build Beautiful Simple Things!<span className='project'> <a href=""> Projects</a></span>
+              I Build Beautiful Things!<span className='project'> <a href=""> Projects</a></span>
             </p>
+          </div>
+          <div>
+            <button>Contact me!</button>
           </div>
 
         
@@ -86,8 +85,8 @@ const Hero = () => {
           </div>
           <div>
             <p>
-              Keep <br />
-              Scrolling
+              Scroll <br />
+              Down
             </p>
           </div>
 
