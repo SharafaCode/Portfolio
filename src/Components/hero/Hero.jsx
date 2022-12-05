@@ -17,24 +17,11 @@ const Hero = () => {
     <Header/>
       <div className="hero-content">
 
-      
-
-          <div className="subname">
-            
-            <div>
-              <h3>
-                Hi,
-              </h3>
-            </div>
-            
-
-          </div>
-
           <div className="name">
             <div>
 
             <h1>
-              I'm <span className='first-letter'>T</span>obi
+              <span>Hi,</span> <br /> I'm <span className='first-letter'>T</span>obi
             </h1>
 
             </div>
@@ -51,8 +38,8 @@ const Hero = () => {
               I Build Beautiful Things!<span className='project'> <a href=""> Projects</a></span>
             </p>
           </div>
-          <div>
-            <button>Contact me!</button>
+          <div className='btn'>
+            <button className='buttn'>Contact me!</button>
           </div>
 
         

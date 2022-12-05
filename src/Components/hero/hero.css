@@ -33,24 +33,6 @@
     justify-content: center;
 }
 
-
-.subname{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    letter-spacing: .25rem;
-    position: absolute;
-    top: 28%;
-}
-
-.subname h3{
-
-    font-size: 1.8rem;
-    font-weight: 600;
-    
-}
-
-
 .name{
 
     display: flex;
@@ -66,15 +48,14 @@
     letter-spacing: .5rem;
 }
 
-.first-letter{
-    font-size: 5rem;
-    color: var(--white-alpha-40);
+.decs{
+    margin-top: 1rem;
 }
 
 .decs p{
     font-size: 1.4rem;
     font-weight: 600;
-    color: var(--white-alpha-25);
+    color: var(--white-alpha-40);
     letter-spacing: .01rem;
 }
 
@@ -87,6 +68,38 @@
 
 .decs .project a{
     color: #f7f7f7e5;
+}
+
+.btn{
+    margin-top: 1rem;
+}
+
+.buttn{
+
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    color: #0f0f0f;
+    position: relative;
+    background: transparent;
+    border: .2rem solid #f7f7f7;
+    
+}
+
+.btn .buttn::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #f7f7f7;
+    transition: all .6s ease-in-out;
+    color: #0f0f0f;
+    z-index: -1;
+}
+
+.btn .buttn:hover::after{
+    width: 100%;
 }
 
 
