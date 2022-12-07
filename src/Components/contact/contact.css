@@ -1,0 +1,132 @@
+.frame-section{
+  
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+
+.frame-article{
+
+    width: 90%;
+    margin: auto;
+    height:90vh;
+    border: .2rem solid #f7f7f7e5;
+    border-radius: 3rem;
+    background: var(--white-alpha-25);
+  
+    
+}
+
+.contact-content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 77vh;
+   
+}
+
+.contact-header h1{
+    font-size:clamp(1.8rem, 10vw, 10rem);
+    color: var(--white-alpha-40);
+    font-weight: 900
+    ;
+}
+.contact-header p{
+    font-size:1.1rem;
+    font-weight: 500;
+}
+
+.contact-form input{
+    width: 100%;
+    height: 3.5rem;
+    background: rgba(255, 255, 255, 0.089);
+    padding-left: 1rem;
+    border: none;
+    margin-top: 1rem;
+    position: relative;
+    color: var(--white-alpha-40);
+    font-weight: 500;
+}
+
+.contact-form ::placeholder{
+    font-size: 1.4rem;
+    color: var(--white-alpha-40);
+    font-weight: 500;
+    
+
+}
+
+.contact-form :focus{
+    outline: none;
+    width: 100%;
+    border-bottom: .1rem solid var(--white-alpha-40);
+   
+}
+
+.contact-form textarea{
+    width: 100%;
+    height: 8rem;
+    background:  rgba(255, 255, 255, 0.089);
+    margin-top: 1rem;
+    border: none;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    color: var(--white-alpha-40);
+    font-weight: 500;
+
+}
+
+textarea, ::placeholder{
+    
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+
+.form-btn{
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.form-buttn{
+
+    padding: .8rem 1rem;
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: .2rem;
+    color:var(--white-alpha-40);
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    position: relative;
+    background: transparent;
+    border: .1rem solid var(--white-alpha-40);
+    z-index: 1;
+    
+}
+
+.form-btn .form-buttn::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--white-alpha-25);
+    transition: all .6s ease-in-out;
+    color: #0f0f0f;
+    z-index: -1;
+}
+
+.form-btn .form-buttn:hover::after{
+    width: 100%;
+}
+
+
