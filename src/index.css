@@ -30,9 +30,21 @@ html{
 body{
 
  
-  background: linear-gradient(to bottom right, #3f72ad, var(--light-cyan) );
+  background: #212121;
   font-family: 'Playfair Display', serif;
   
+  
+}
+
+.frame-article{
+
+  width: 90%;
+  margin: auto;
+  height:90vh;
+  border: .2rem solid #f7f7f7e5;
+  border-radius: 3rem;
+  background:#262626;
+
   
 }
 
@@ -43,7 +55,7 @@ li{
 
 h1,h2,h3,h4,h5,h6, p{
   
-  color: #0f0f0f;
+  color: #fff;
 
 }
 
@@ -57,4 +69,29 @@ button{
 }
 
 
+@media screen and (min-width:768px) {
+  .frame-article{
 
+      width: 85%;
+      margin: auto;
+      height:90vh;
+      border: .2rem solid #f7f7f7e5;
+      border-radius: 3rem;
+      background:#262626;
+    
+      
+  }
+}
+@media screen and (min-width:1024px) {
+  .frame-article{
+
+      width: 80%;
+      margin: auto;
+      height:90vh;
+      border: .2rem solid #f7f7f7e5;
+      border-radius: 3rem;
+      background:#262626;
+    
+      
+  }
+}

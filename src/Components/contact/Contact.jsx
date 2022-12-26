@@ -15,7 +15,7 @@ const Contact = () => {
                         Contact Me
                     </h1>
                     <p>
-                        I'm interested in freelance opportunities, Part Time And Junior Developer Roles - especially ambitious or largfe projects. However, if you have other request or questions, please don't hesitate to use the contact form.
+                        I'm interested in freelance opportunities, Part Time And Junior Developer Roles - especially ambitious or large projects. However, if you have other request or  questions, please don't hesitate to use the contact form.
                     </p>
                 </div>
 
