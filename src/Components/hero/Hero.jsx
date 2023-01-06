@@ -26,7 +26,7 @@ const Hero = () => {
 
             </div>
 
-            <div>
+            <div className='title'>
               <h1>
               Web Developer
               </h1>

@@ -25,7 +25,7 @@ const About = () => {
                 <div className='about-desc'>
                     <p>
 
-                    Hello, my name is Tobi, I'm a Front-End Developer from NIgeria (West Africa),  with great passion for building interactive websites. I have always wondered how things work and that is what fueled my desire to be part of the process.
+                    Hello, my name is Tobi, I'm a Front-End Developer from NIgeria (West Africa),  with great passion for building interactive websites.
                     
                     </p>
 

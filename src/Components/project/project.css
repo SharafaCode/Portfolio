@@ -1,38 +1,21 @@
-.frame-section{
-  
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-
-}
-
-
-.frame-article{
-
-    width: 90%;
-    margin: auto;
-    height:90vh;
-    border: .2rem solid #f7f7f7e5;
-    border-radius: 3rem;
-    background: var(--white-alpha-25);
-  
-    
-}
 
 .projects-content{
 
     width: 90%;
     margin: auto;
-    height:90vh;
+   
 
 }
 
 
+
+.projects-header{
+
+    margin-top: 10%;
+}
+
 .projects-header h1{
-    font-size: clamp(3rem, 10vw, 3rem);
+    font-size: clamp(3rem, 10vw, 8rem);
     color: var(--white-alpha-40);
     font-weight: 900;
 }
@@ -43,18 +26,23 @@
     font-weight: 500;
 }
 
-.projects-image-container{
+.projects-container{
+  
     display: grid;
-    row-gap: 2rem;
+    gap: 2rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
     place-items: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3rem;
-    
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    scroll-snap-align: start;
+    padding-bottom: 3rem;
+
+    overflow-x: scroll;
     
 }
 
-.image-wrapper{
+.project-wrapper{
     
     width: 100%;
     height: 100%;
@@ -65,11 +53,14 @@
 
 
 
-.image-wrapper img{
+.project-image > img{
 
     width: 100%;
-   object-fit: cover;
+    inline-size: 100%;
+   object-fit: contain;
    border-radius: .8rem;
+   aspect-ratio: 16 / 9;
+   
    
 
 }

@@ -21,7 +21,7 @@
 }
 
 .contact-header h1{
-    font-size:clamp(1.8rem, 10vw, 7rem);
+    font-size:clamp(3rem, 10vw, 8rem);
     color: var(--white-alpha-40);
     font-weight: 900
     ;
